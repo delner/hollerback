@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["David Elner"]
   spec.email         = ["david@davidelner.com"]
 
-  spec.summary       = %q{Callback pattern for Ruby classes.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Simple DSL-like callback pattern for Ruby classes.}
+  spec.homepage      = "https://github.com/delner/hollerback"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
