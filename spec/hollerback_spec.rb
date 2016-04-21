@@ -18,7 +18,7 @@ describe Hollerback do
 
   let(:test_class) do
     stub_const "TestClass", Class.new
-    TestClass.include(Hollerback)
+    TestClass.send(:include, Hollerback)
     TestClass
   end
 
